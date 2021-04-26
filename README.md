@@ -92,21 +92,10 @@ This page will feature a form to contact the owner to make an enquiry, with the 
 
 Here are the initial wireframes produced for this project:
 
-[Home page - desktop](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/home-desktop.png)
+[Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-desktop-tablets.png)
 
-[Home page - tablets and phones](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/home-tablets-phones.png)
+[Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-mobile.png)
 
-[The Cottage - desktop](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/the-cottage-desktop.png)
-
-[The Cottage - mobiles and phones](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/the-cottage-tablets-phones.png)
-
-[The Local Area - desktop](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/local-area-desktop.png)
-
-[The Local Area - mobiles and phones](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/local-area-tablets-phones.png)
-
-[Contact/Book Now - desktop](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/contact-desktop.png)
-
-[Contact/Book Now - mobiles and phones](https://github.com/D-Lawson/milestone-project-1/blob/master/assets/wireframes/contact-tablets-phones.png)
 
 ## The Surface Plane
 
