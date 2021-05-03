@@ -107,21 +107,27 @@ Here are some of the styling rules that has been defined to date:
 
 ### Colours
 
-A hex colour of #354D69 has been identified as suitable for headers, footers, fill colours within containers.
+A hex colour of #203C5C has been identified as suitable for headers, footers, fill colours within containers.
 
-Hex colour #BAA868 has been identified as suitable for body text.  Also for the main logo font text.  A white/light colour shall be used for other headings.
+Hex colour #D6C37F has been identified as suitable for body text.  Also for the main logo font text.  A white/light colour shall be used for other headings.
 
 ### Buttons
 
-Generic bootstrap buttons have been deemed suitable, providing that the styling is overridden using the colours that are compatible with #354D69
+Generic bootstrap buttons have been deemed suitable, providing that the styling is overridden using the colours that are compatible with #203C5C
 
 # Features
 
 ## Existing Features
 
+*	Nav bar containing navigation button elements and business logo
+*	Hero image with a bootstrap jumbotron added for the callout.  Call to action button (Book Now) visible within the jumbotron.
+
 ## Features Left to Implement
 
 # Technologies Used
+
+*	Bootstrap version 4.2 used for Nav, Jumbotron, some styling, and a button.
+*	Fontawesome is used for the logo image and scroll down logo.
 
 ## Wireframes
 
@@ -134,6 +140,8 @@ Adobe XD was used to produce the wireframes.
 # Credits
 
 ## Content
+
+
 
 ## media
 

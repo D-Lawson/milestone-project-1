@@ -5,7 +5,8 @@ body{
     line-height: 22px;
 }
 
-/* ---------Paddings, margins and text */
+/* ------------------------------------Paddings, margins and text */
+
 
 @media (max-width: 390px) {
 .size-small{font-size:0.7em;
@@ -42,12 +43,9 @@ hr{
     margin-bottom: 0;
 }
 
-.nav-bg{
-    background-color:#354D69;
-}
 
 .navbar-dark .navbar-brand{
-    color: #BAA868;
+    color: rgb(214, 195, 127);
 }
 
 nav .fas{
@@ -56,10 +54,96 @@ nav .fas{
     bottom: 8px;
 }
 
-.container-width{
-    width:70%;
+.callout-padding{
+    padding-bottom: 45px; 
 }
 
 
+
+/* ------------------------------------COLORS */
+
+.nav-bg{
+    background-color:rgb(32, 60, 92);
+    border-bottom: 1px solid rgb(87, 79, 52)
+}
+
+.blue-fill-t{
+    background-color: rgba(32, 60, 92, 0.9 );
+}
+
+.h-style-1{
+    font-family: "Nanum Myeongjo", sans-serif;
+    color: white;
+    
+}
+
+.sig-orange{
+    color: rgb(214, 195, 127);
+}
+
+.p-style-1{
+    color: silver;
+}
+
+.p-style-2{
+    margin-top: 30px;
+}
+
+.p-style-2 b{
+    
+    color: silver;
+}
+
+.p-style-2 i{
+    
+    color:  rgb(214, 195, 127);
+}
+
+b {
+    color: #BAA868;
+}
+
+.book-now-style{
+    color: #ffffff;
+    background-image: linear-gradient(to right, #f98d1a, green);
+    border-color: #ffc107;
+    border-radius: 2rem;
+}
+
+.book-now-style2{
+    font-size: xx-large;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #f98d1a, green);
+    border-color: aliceblue;
+    border-radius: 2rem;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+    color: rgb(98, 0, 255);
+    border-color:  rgb(98, 0, 255);
+    background-image: linear-gradient(to right, #b17e49, rgb(76, 151, 76));
+
+}
+
+
+/* ------------------------------------IMAGES */
+
+.hero-image{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+    width: 100%;
+    background: url("/assets/images/cottage-cover-800.jpg") no-repeat bottom center fixed;
+    background-size: cover;
+    
+}
+
+@media (max-width: 768px) {
+#hero-image{
+    height: 90vh;}
+}
 
 
