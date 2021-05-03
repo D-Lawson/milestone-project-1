@@ -97,9 +97,9 @@ Here are the initial wireframes produced for this project:
 [Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-mobile.png)
 
 
-## The Surface Plane
+## The Surface Plane 
 
-Here are some of the styling rules that has been defined to date:
+Here are some of the styling rules that has been defined to date: 
 
 ### Fonts/typography
 
