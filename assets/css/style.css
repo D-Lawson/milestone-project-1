@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 body{
     line-height: 22px;
@@ -57,6 +59,29 @@ nav .fas{
 .callout-padding{
     padding-bottom: 45px; 
 }
+
+.list-text{
+    font-family: "Crimson Text", sans-serif;
+    color: white;
+    font-size: large;
+}
+
+ul {
+  list-style: none; 
+}
+
+/* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+
+.bullet-style:before {
+    content: "\2022";
+    color: red;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+/* ------------------------------------Bullet style code ends */
 
 @media (min-width:1200px) {
 .line-1-padding{
@@ -123,6 +148,13 @@ nav .fas{
     font-family: "Nanum Myeongjo", sans-serif;
     color: white;
     font-size: 24px;
+}
+
+.h-style-3{
+    font-family: "Nanum Myeongjo", sans-serif;
+    color:rgb(214, 195, 127);
+    font-size: 24px;
+    padding-bottom: 10px;
 }
 
 
@@ -238,3 +270,28 @@ h2 i{
    }
 }
 
+.image-4-size{
+
+   padding-left: 30px;
+
+}
+
+
+@media (min-width:1200px){
+   .image-4-size{
+     height: 303.75px;
+     
+   }
+}
+
+@media (min-width:992px)and (max-width: 1200px){ 
+   .image-4-size{
+     height: 253.125px;
+   }
+}
+
+@media (min-width:992px)and (max-width: 1200px){ 
+   .image-4-size{
+     height: 253.125px;
+   }
+}
