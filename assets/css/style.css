@@ -5,6 +5,7 @@
 
 body{
     line-height: 22px;
+    background-color: aliceblue;
 }
 
 /* ------------------------------------Paddings, margins and text */
@@ -159,6 +160,10 @@ ul {
     border: 2px solid #707070;
 }
 
+.no-fill{
+    background-color: aliceblue;
+}
+
 .h-style-1{
     font-family: "Nanum Myeongjo", sans-serif;
     color: white;
@@ -216,6 +221,14 @@ b {
     color: #ffffff;
     background-image: linear-gradient(to right, #f98d1a, green);
     border-color: #ffc107;
+    border-radius: 2rem;
+}
+
+.book-now-style1{
+    font-size: xx-large;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #f98d1a, green);
+    border-color: aliceblue;
     border-radius: 2rem;
 }
 
