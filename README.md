@@ -121,6 +121,9 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 
 *	Nav bar containing navigation button elements and business logo
 *	Hero image with a bootstrap jumbotron added for the callout.  Call to action button (Book Now) visible within the jumbotron.
+*   Section for Cottage overview containing two boostrap grid columns, one with a jumbotron for text, one container for an image.
+*   Section containing accommodation features in a single column with an unordered list, wrapped around a testimonial image floated right.
+*   Section for The Local Area containing two boostrap grid columns with a jumbotron in each column, one for text and one for an image.
 
 ## Features Left to Implement
 
@@ -141,8 +144,13 @@ Adobe XD was used to produce the wireframes.
 
 ## Content
 
-
+* Text content obtained from snowdoniabreaks.co.uk at the approval of the website owner
 
 ## media
 
+* Images obtained from snowdoniabreaks.co.uk at the approval of the website owner
+* Snowdon image obtained from stock photograph website https://www.freeimages.com/photo/snowdon-yr-wyddfa-1377605 
+
 ## Acknowledgements 
+
+* Code Institute's LMS provided me with a great foundation to the way I have approached this project.  I made use of teachings from UX to coding.
