@@ -58,6 +58,40 @@ nav .fas{
     padding-bottom: 45px; 
 }
 
+@media (min-width:1200px) {
+.line-1-padding{
+    padding-top: 45px;
+    padding-bottom: 53px;}
+}
+
+
+@media (max-width: 1200px) and (min-width:992px) {
+.line-1-padding{
+    padding-top: 18px;
+    padding-bottom: 7px;}
+}
+
+@media (min-width:1200px) {
+.line-2-padding{
+    padding-top: 50px;
+    padding-bottom: 69px;
+}
+}
+
+@media (max-width: 1200px) and (min-width:992px) {
+.line-2-padding{
+    padding-top: 21px;
+    padding-bottom: 26px;}
+}
+
+@media (max-width: 768px){ 
+   .pd-mobile{
+    padding-bottom: 20px;}
+   }
+
+.divider{
+    height: 30px;
+}
 
 
 /* ------------------------------------COLORS */
@@ -71,11 +105,26 @@ nav .fas{
     background-color: rgba(32, 60, 92, 0.9 );
 }
 
+.green-fill{
+    background-color: rgb(60,92,32);
+}
+
+.slate-fill{
+    background-color: #1a1926;
+}
+
 .h-style-1{
     font-family: "Nanum Myeongjo", sans-serif;
     color: white;
     
 }
+
+.h-style-2{
+    font-family: "Nanum Myeongjo", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
 
 .sig-orange{
     color: rgb(214, 195, 127);
@@ -125,6 +174,22 @@ b {
 
 }
 
+.body-style{
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(212, 204, 174);
+    font-size: large;
+}
+
+.body-style-1{
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: large;
+}
+
+h2 i{
+    color:#f98d1a;
+}
+
 
 /* ------------------------------------IMAGES */
 
@@ -146,4 +211,30 @@ b {
     height: 90vh;}
 }
 
+.img-style{
+    border-radius: 2%;
+    border: 3px solid  rgb(32, 60, 92);
+
+}
+
+.image-2{
+    display: none;
+}
+
+@media (max-width: 992px) and (min-width:768px){ 
+   .image-1{
+     display: none;
+   }
+
+   .image-2{
+    display: block;
+    height: 415px;
+   }
+}
+
+@media (max-width: 768px){ 
+   .image-3{
+     display: none;
+   }
+}
 
