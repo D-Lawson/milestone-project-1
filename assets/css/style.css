@@ -235,32 +235,29 @@ b {
 }
 
 .book-now-style{
-    color: #ffffff;
+    color: #eeeeee;
     background-image: linear-gradient(to right, #f98d1a, green);
     border-color: #ffc107;
     border-radius: 2rem;
+    font-weight: 600;
 }
 
 .book-now-style1{
     font-size: xx-large;
-    color: #ffffff;
+    color: #eeeeee;
     background-image: linear-gradient(to right, #f98d1a, green);
-    border-color: aliceblue;
+    border-color: #ffc107;
     border-radius: 2rem;
+    font-weight: 500;
 }
 
-.book-now-style2{
-    font-size: xx-large;
-    color: #ffffff;
-    background-image: linear-gradient(to right, #f98d1a, green);
-    border-color: aliceblue;
-    border-radius: 2rem;
-}
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
-    color: rgb(98, 0, 255);
-    border-color:  rgb(98, 0, 255);
-    background-image: linear-gradient(to right, #b17e49, rgb(76, 151, 76));
+    color: rgb(255, 255, 255);
+    border-color: rgb(63, 218, 63);
+    background-image: linear-gradient(to right, #cc7315, rgb(2, 104, 2));
+    font-weight: 600;
+
 
 }
 
@@ -310,7 +307,6 @@ h2 i{
 .img-style{
     border-radius: 2%;
     border: 3px solid  rgb(32, 60, 92);
-
 }
 
 .image-2{
