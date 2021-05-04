@@ -341,3 +341,11 @@ h2 i{
      height: 253.125px;
    }
 }
+
+.form-bg{
+    background-image: url("/assets/images/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid  rgb(32, 60, 92);
+
+}
