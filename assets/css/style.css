@@ -16,6 +16,10 @@ body{
 line-height: 13px;}
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .3rem;}
+
 .nav-padding{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -55,6 +59,19 @@ nav .fas{
     position: relative;
     left: -17px;
     bottom: 8px;
+}
+
+.nav-item-style{
+    font-size: 22px;
+    border-right: 2px solid rgb(214, 195, 127);
+    top: 50%;
+    bottom: 0;
+}
+
+.contact-style-nav{
+    font-size: 22px;
+    top: 50%;
+    bottom: 0;
 }
 
 .callout-padding{
