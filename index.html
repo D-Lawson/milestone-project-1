@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <title>Snowdonia Cottage Breaks - Holiday Cottage</title>
 </head>
 
-<body>
+<body data-spy='scroll' data-target='.navbar' data-offset='50'>
     <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark nav-bg nav-padding">
+        <nav id="nav-scroll" class="navbar fixed-top navbar-expand-md navbar-dark nav-bg nav-padding">
             <div>
                 <a href="/" class="nav-color navbar-brand size-small">
                     <hr>SNOWDONIA
@@ -28,10 +30,10 @@
             <div class="collapse navbar-collapse" id="burgerbutton">
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="active nav-item mr-1 nav-item-style"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-1 nav-item-style"><a class="nav-link" href="">The Cottage</a></li>
-                    <li class="nav-item mr-1 nav-item-style"><a class="nav-link" href="">The Local Area</a></li>
-                    <li class="nav-item mr-1 contact-style-nav"><a class="nav-link" href="">Contact Us</a></li>
+                    <li class="nav-item mr-1 nav-item-style"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item mr-1 nav-item-style"><a class="nav-link" href="#cottage">The Cottage</a></li>
+                    <li class="nav-item mr-1 nav-item-style"><a class="nav-link" href="#local">The Local Area</a></li>
+                    <li class="nav-item mr-1 contact-style-nav"><a class="nav-link" href="#contact">Contact Us</a></li>
                     <li class="nav-item mr-2 d-none d-md-block btn-primary book-now-style"><button
                         class="btn btn-primary book-now-style" data-toggle="modal" data-target="#booking-platform">Book
                         Now!</button></li>
@@ -42,11 +44,9 @@
     </header>
 
     <section>
-        <div class="hero-image">
-            <div>
-                <div id="hero-image"></div>
+        <div id="home" class="hero-image">
 
-            </div>
+                <div id="hero-image"></div>
 
             <div class="row">
                 <div class="col-12">
@@ -74,7 +74,7 @@
     <section>
         <div class="divider"></div>
         <div>
-            <div class="container">              
+            <div id="cottage" class="container">              
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="jumbotron line-1-padding green-fill">
@@ -169,7 +169,7 @@
         </div>
 
         <div>
-            <div class="container">
+            <div id="local" class="container">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="jumbotron line-3-padding white-fill">
@@ -243,7 +243,7 @@
     </div>
 
 
-    <div class="container">
+    <div id="contact" class="container">
         <div class="row">
             <div class="col-md-12">
 

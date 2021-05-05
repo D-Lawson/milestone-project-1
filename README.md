@@ -131,6 +131,7 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 
 *	Bootstrap version 4.2 used for Nav, Jumbotron, some styling, and a button.
 *	Fontawesome is used for the logo image and scroll down logo.
+*   Javascript bootstrap library used to deploy the bootstrap Scrollspy
 
 ## Wireframes
 
