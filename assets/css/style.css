@@ -10,7 +10,11 @@ body{
     line-height: 22px;
     background-color: aliceblue;
     position: relative;
-    margin-top: 110px;
+    margin-top: 105px;
+}
+
+@media (max-width: 410px) {
+body{margin-top: 80px;}
 }
 
 .nav li{
@@ -20,10 +24,28 @@ body{
 /* ------------------------------------Paddings, margins and text */
 
 
-@media (max-width: 390px) {
+@media (max-width: 410px) {
 .size-small{font-size:0.7em;
 line-height: 13px;}
 }
+
+@media (max-width: 410px) {
+nav i{font-size:32px!important;}
+}
+
+@media (max-width: 410px) {
+nav .fas{
+    position: relative;
+    left: -15px!important;
+    bottom: 5px!important;}
+}
+
+@media (max-width: 410px) {
+nav .book-now-style{
+    font-size: 0.8rem;}
+}
+
+
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .5rem;
@@ -433,6 +455,7 @@ h2 i{
      height: 253.125px;
    }
 }
+
 
 .contact-margin{
     margin-bottom: 30px;
