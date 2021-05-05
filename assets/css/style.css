@@ -7,6 +7,7 @@ body{
     line-height: 22px;
     background-color: aliceblue;
     position: relative;
+    margin-top: 110px;
 }
 
 .nav li{
@@ -96,6 +97,11 @@ nav .fas{
 
 ul {
   list-style: none; 
+}
+
+.scroll-offset{
+    padding-top: 130px; 
+    margin-top: -130px;
 }
 
 /* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
