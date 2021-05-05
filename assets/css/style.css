@@ -141,6 +141,15 @@ ul {
     
 }
 
+.embed-margin{
+    width: 90%;
+}
+
+.embed-bg{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 /* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 
@@ -415,7 +424,6 @@ h2 i{
     background-image: url("/assets/images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid  rgb(32, 60, 92);
 
     position:relative;
     display:flex;
