@@ -238,28 +238,24 @@
 
     </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron text-center no-fill text-wrap">
-
-                    <button class="btn btn-primary book-now-style1" data-toggle="modal"
-                        data-target="#booking-platform">Click HERE to Check Availability and Book Now!</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!--Form section-->
 
-    <div id="contact" class="container-fluid form-container scroll-offset">
+    <div id="contact" class="container scroll-offset align-items-center contact-margin">
         <div class="row">
-            <div class="col-md-12 form-padding">
+            <div class="col-md-12">
 
-                <div class="form-bg">
+                <div class="form-bg form-padding">
+                    <div class="text-center">
+                        <button class="btn btn-primary book-now-style1 text-center" data-toggle="modal"
+                        data-target="#booking-platform">Click HERE to Check Availability and Book Now!</button>
+                    </div>
+                    <div class="align-items-center">
                     <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank" class="form-style" onSubmit="alert('Thank you for your feedback.');">
                         <div class="form-group">
+                            <p class="form-labels text-center form-pad">Alternatively, please contact us with your enquiry: </p>
+                            <label class="form-labels" for="email-field">Name:</label>
+                            <input type="text" class="form-control" id="text-field" name="text-field"
+                                aria-describedby="email-declaration" placeholder="Enter email" required>
                             <label class="form-labels" for="email-field">Email address:</label>
                             <input type="email" class="form-control" id="email-field" name="email-field"
                                 aria-describedby="email-declaration" placeholder="Enter email" required>
@@ -280,6 +276,8 @@
                         </div>
                         <button type="submit" class="btn btn-primary book-now-style">Submit</button>
                     </form>
+
+                    </div>
                 </div>
             </div>
         </div>
