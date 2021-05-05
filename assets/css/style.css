@@ -152,6 +152,18 @@ ul {
     padding-bottom: 40px;
 }
 
+.modal-size{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* obtained from https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen */
+    width: 500px;
+}
+
+.modal-padding{
+    margin: 30px;
+}
+
 /* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 
 .bullet-style:before {

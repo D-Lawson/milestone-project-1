@@ -119,11 +119,15 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 
 ## Existing Features
 
-*	Nav bar containing navigation button elements and business logo
+*	Nav bar containing navigation button elements and business logo.
 *	Hero image with a bootstrap jumbotron added for the callout.  Call to action button (Book Now) visible within the jumbotron.
 *   Section for Cottage overview containing two boostrap grid columns, one with a jumbotron for text, one container for an image.
 *   Section containing accommodation features in a single column with an unordered list, wrapped around a testimonial image floated right.
 *   Section for The Local Area containing two boostrap grid columns with a jumbotron in each column, one for text and one for an image.
+*   Contact Us section containing a call to action to check availability and Book Now.  Contact form inserted with modal popup upon submit.
+*   Bootstrap Scrollspy deployed to highlight the active section in the nav bar.
+*   Video embedded via youtube iframe containing an example of the Snowdonia experience.
+*   Footer section containing additional contact information and also social media links.
 
 ## Features Left to Implement
 
