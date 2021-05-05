@@ -88,7 +88,7 @@ nav .fas{
 .callout-padding{
     padding-top: 45px; 
     padding-bottom: 30px;
-    border-radius: 20px;
+    
     border: 1px solid #a5adb7;
 }
 
@@ -110,6 +110,34 @@ ul {
 .tagline{
     font-size: x-large;
 }
+
+.form-style{
+    width:50%;
+    background-color: #1a1926e8;
+    padding: 25px;
+    border-radius: .3rem;
+}
+
+.form-labels{
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: x-large;
+    padding: 15px 15px 15px 0px;
+}
+
+.form-promo-check{
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: medium;   
+}
+
+.message-input{
+    vertical-align: text-top;
+    text-align: left;
+    height: 154px;
+    
+}
+
 
 /* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 
@@ -386,4 +414,16 @@ h2 i{
     background-size: cover;
     border: 2px solid  rgb(32, 60, 92);
 
+    position:relative;
+    display:flex;
+    height: 90vh;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.form-padding{
+    padding-right: 0px;
+    padding-left: 0px;
 }
