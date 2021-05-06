@@ -105,7 +105,7 @@ nav .fas{
 
 @media  (min-width:760px) and (max-width: 880px){
 .nav-item-style{
-    font-size: 17px;}
+    font-size: 16px;}
 }
 
 .contact-style-nav{
@@ -167,7 +167,7 @@ ul {
 .form-style{
     margin: 30px 10% 10% 10%;
     width:80%;
-    background-color: #1a1926e8;
+    background-color: rgba(22, 41, 63, 0.9);
     padding: 25px;
     border-radius: .3rem;
 }
@@ -282,24 +282,33 @@ ul {
 /* ------------------------------------COLORS */
 
 .nav-bg{
-    background-color:rgb(32, 60, 92);
+    background-color:rgb(22, 41, 63);
     border-bottom: 1px solid rgb(87, 79, 52)
 }
 
 .blue-fill-t{
-    background-color: rgba(32, 60, 92, 0.9 );
+    background-color: rgba(22, 41, 63, 0.9 );
 }
 
 .green-fill{
-    background-color: rgb(60,92,32);
+    background-color: rgb(40 77 30);
+}
+
+.burgundy-fill{
+    background-color: #470d1b;
 }
 
 .slate-fill{
     background-color: #1a1926;
 }
 
-.white-fill{
-    background-color: whitesmoke;
+.teal-fill{
+    background-color: rgb(160, 167, 138);
+    border: 2px solid #707070;
+}
+
+.new-fill{
+    background-color: rgb(41, 38, 52);
     border: 2px solid #707070;
 }
 
@@ -425,7 +434,7 @@ b {
 
 .body-style-2{
     font-family: "Crimson Text", sans-serif;
-    color: #485E77;
+    color: rgb(44, 57, 73);
     font-size: large;
 }
 
@@ -527,7 +536,7 @@ h2 i{
 /* ------------------------------------FOOTER */
 
 footer {
-    background-color: rgb(32, 60, 92);
+    background-color: rgb(22, 41, 63);
     color: rgb(214, 195, 127);
 }
 
