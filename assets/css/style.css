@@ -300,7 +300,12 @@ ul {
 }
 
 .embed-margin {
-    width: 90%;
+    margin-bottom: 30px;
+}
+
+.embed-row{
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .embed-bg {
@@ -644,13 +649,14 @@ footer {
 }
 
 .social-item {
-    padding-top: 10px;
-    padding-bottom: 15px;
+    
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .social-item li a i {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     color: rgb(214, 195, 127);
     font-size: x-large;
     text-align: center;
