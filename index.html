@@ -6,7 +6,7 @@
     <meta name="description" content="Home page for holiday cottage based in Snowdonia North Wales">
     <meta name="keywords" content="Holiday, cottage, accommodation, Wales, North Wales, Snowdonia">
     <meta name="author" content="Dan Lawson">
-    <meta name="theme-color" content="rgb(22, 41, 63)"/>
+    <meta name="theme-color" content="rgb(22, 41, 63)" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -21,6 +21,9 @@
 </head>
 
 <body data-spy='scroll' data-target='.navbar' data-offset='150'>
+
+    <!--Header/Navbar section-->
+
     <header>
         <nav id="nav-scroll" class="navbar fixed-top navbar-expand-md navbar-dark nav-bg nav-padding">
             <div>
@@ -56,6 +59,10 @@
         </nav>
     </header>
 
+    <!--Header/Navbar section ends-->
+
+    <!--Hero image and callout section-->
+
     <section>
         <div id="home" class="hero-image scroll-offset">
 
@@ -81,8 +88,11 @@
                 </div>
             </div>
         </div>
-
     </section>
+
+    <!--Hero image and callout section ends-->
+
+    <!--Cottage overview section-->
 
     <section>
         <div class="divider"></div>
@@ -141,10 +151,20 @@
                             </p>
                         </div>
                     </div>
+                    <div class="col-md-6 pd-mobile">
+                        <img alt="Collage of the cottage" src="assets/images/image-3.jpg"
+                            class="img-fluid img-style image-3-2" />
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!--Cottage overview section ends-->
+
+    <!--Cottage features section-->
+
+    <section>
         <div>
             <div class="container">
                 <div class="row">
@@ -155,7 +175,7 @@
                                 THE ACCOMMODATION OFFERS:
                             </h2>
                             <img alt="Testimonial of previous guest to the cottage" src="assets/images/image-4.jpg"
-                                class="img-fluid image-4-size float-right" />
+                                class="img-fluid float-right image-4" />
 
                             <ul class="list-text">
                                 <li class="bullet-style">5 bedrooms sleeping a maximum of 10-14</li>
@@ -175,12 +195,20 @@
                                     pine dresser. Highchair.</li>
                                 <li class="bullet-style">Patio area, garden furniture,sun loungers & barbecues.</li>
                             </ul>
+                            <img alt="Testimonial of previous guest to the cottage" src="assets/images/image-4.jpg"
+                                class="img-fluid image-4-2" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!--Cottage features section ends-->
+
+    <!--The Local area section-->
+
+    <section>
         <div>
             <div id="local" class="container scroll-offset">
                 <div class="row">
@@ -242,6 +270,8 @@
 
     </section>
 
+    <!--Header/Navbar section ends-->
+
     <!--Form section-->
 
     <div id="contact" class="container scroll-offset align-items-center contact-margin">
@@ -272,7 +302,7 @@
                                     else.</small>
                             </div>
                             <div class="form-group">
-                                <label class="form-labels" for="message-enquiry" size="500">Message / enquiry:</label>
+                                <label class="form-labels" for="message-enquiry">Message / enquiry:</label>
                                 <input type="text" class="form-control message-input" id="message-enquiry"
                                     name="message-enquiry" placeholder="Message/enquiry" required>
                             </div>
@@ -355,7 +385,7 @@
         <div class="modal-content blue-fill-t modal-size">
 
             <div class="h-style-3 modal-padding">
-                <h1> Thank you for your enquiry, we'll be in touch as soon as possible.</h1>
+                <h1> Thank you for your enquiry, we'll be in touch as soon as possible.<br><br>Have a great day!</h1>
             </div>
 
             <div class="modal-footer">
