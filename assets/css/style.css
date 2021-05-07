@@ -286,13 +286,30 @@ ul {
     padding-bottom: 40px;
 }
 
+.modal-text h1{
+    font-family: "Nanum Myeongjo", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:768px) {
+    .modal-text h1{
+    font-size: 18px;}
+}
+
 .modal-size {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     /* obtained from https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen */
-    width: 500px;
+    width: 400px;
+}
+
+@media (max-width:768px) {
+    .modal-size{
+    width:300px;}
 }
 
 .modal-padding {
