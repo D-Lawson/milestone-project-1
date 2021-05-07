@@ -271,34 +271,6 @@ ul {
     }
 }
 
-.form-style {
-    margin: 30px 10% 10% 10%;
-    width: 80%;
-    background-color: rgba(22, 41, 63, 0.925);
-    padding: 25px;
-    border-radius: .3rem;
-}
-
-.form-labels {
-    font-family: "Crimson Text", sans-serif;
-    color: rgb(214, 195, 127);
-    font-size: x-large;
-    padding: 15px 15px 15px 0px;
-}
-
-.form-promo-check {
-    font-family: "Crimson Text", sans-serif;
-    color: rgb(214, 195, 127);
-    font-size: medium;
-}
-
-.message-input {
-    vertical-align: text-top;
-    text-align: left;
-    height: 154px;
-
-}
-
 .embed-margin {
     margin-bottom: 30px;
 }
@@ -534,9 +506,9 @@ b {
 }
 
 .book-now-style1 {
-    font-size: 1.1em;
+    font-size: 2ch;
     color: #eeeeee;
-    margin: 50px 5% 0 5%;
+    margin: 0 5% 30px 5%;
     background-image: linear-gradient(to right, #f98d1a, green);
     border-color: #ffc107;
     border-radius: 2rem;
@@ -707,6 +679,46 @@ h2 i {
 
 /* ------------------------------------FORM */
 
+.form-style {
+    margin: 5% 5% 10% 5%;
+    background-color: rgba(22, 41, 63, 0.877);
+    padding: 35px 25px 35px 25px;
+    border-radius: .6rem;
+}
+
+@media (max-width:768px) {
+    .form-style {
+    width: 90%;
+}
+}
+
+@media (min-width:768px) {
+    .form-style {
+    margin: 5% 22.5% 10% 22.5%;
+    width: 55%;
+}
+}
+
+.form-labels {
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: x-large;
+    padding: 15px 15px 15px 0px;
+}
+
+.form-promo-check {
+    font-family: "Crimson Text", sans-serif;
+    color: rgb(214, 195, 127);
+    font-size: medium;
+}
+
+.message-input {
+    vertical-align: text-top;
+    text-align: left;
+    height: 154px;
+
+}
+
 .contact-margin {
     margin-bottom: 30px;
 }
@@ -718,11 +730,21 @@ h2 i {
     border: 2px solid rgb(22, 41, 63); 
     border-radius: .4em;
     width: 100%;
-    height: 100%;
+    height: 800px;
+}
+
+@media (max-width:768px) {
+    .form-bg {
+    height:100%;
+}
 }
 
 .form-pad {
     padding: 10px 0 0 0;
+}
+
+.form-heading{
+    font-size: 20px;
 }
 
 /* ------------------------------------FOOTER */
@@ -775,4 +797,14 @@ footer {
 
 footer p i {
     color: #f98d1a;
+}
+
+@media (min-width: 992px) {
+    .footer-lg{
+    text-align: right!important;}
+}
+
+@media (min-width: 992px) {
+    .pd-lg{
+    padding-right:38px;}
 }
