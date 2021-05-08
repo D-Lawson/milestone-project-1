@@ -2,6 +2,8 @@
 
 ![Snowdonia Cottage Breaks](/assets/readme-images/mockup.PNG)
 
+URL to the current deployed website:  [Snowdonia Cottage Breaks](https://d-lawson.github.io/milestone-project-1/)
+
 # Snowdonia Breaks
 
 This website is intended to provide a captivating user experience for prospective customers of a holiday cottage based in Snowdonia, North Wales.  This in turn should lead to frequent conversions for our client Snowdonia Breaks.   
@@ -60,7 +62,7 @@ The project appears to lack in feasibility in some areas, I’d attribute these 
 
 ## The Scope Plane
 
-I have decided to include these features as priorities:
+These features are to be included as priorities:
 
 *	Navigation bar across the top with internal links 
 *	Home page with hero image and accommodation overview
@@ -151,6 +153,7 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 *   Image carousel to be inserted once enough images can be obtained from the owner to form a carousel gallery feature.
 *   Location map to be embedded with a Google maps iFrame
 *   New navigation item that links to additional information in a separate scrolling page about the cottage, the local area special interests, local history links to local attractions websites. 
+*   Accessibility features to be implemented fully (ARIA and screen reader compatibility)
 
 ----
 
@@ -254,9 +257,10 @@ Addressed two color contrast issues into compliance:
 ![A11Y Correction 2](/assets/readme-images/colour-contrast2.PNG)
 
 
-## Other testing considerations
+## Other testing considerations/Known bugs
 
-In relation to x-small screens there has been an ok result on normal browsers but the callout section has somehow rendered differently on some third party web apps such as http://ami.responsivedesign.is/
+* In relation to x-small screens there has been an ok result on normal browsers but the callout section has somehow rendered differently on some third party web apps such as http://ami.responsivedesign.is/
+* The responsiveness of the page is somewhat overly dependent on media queries.  Any future addition of text content would ideally be possible without compromising the alignment of the images.  Possibly to use alternative unit measurements for content (wider use of relative units), or more responsive containers.
 
 ----
 
