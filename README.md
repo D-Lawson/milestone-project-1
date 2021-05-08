@@ -219,13 +219,13 @@ Recommendations for best practices are related to external library dependency:
 
 Lighthouse mobile report came out with actionable recommendations.  The unused CSS also seemed to be external:
 
-![LH mobile recommendations](/assets/readme-images/ih-mobile.PNG)
+![LH mobile recommendations](/assets/readme-images/lh-mobile.PNG)
 
 ![LH mobile report](/assets/readme-images/mobile-performance1.PNG)
 
 Images were reduced further upon recommendation although they had already been compressed.  This resulted in a slight improvement in the performance score.
 
-![LH mobile correction](/assets/readme-images/ih-mobile-2.PNG)
+![LH mobile correction](/assets/readme-images/lh-mobile-2.PNG)
 
 ![LH mobile correction2](/assets/readme-images/mobile-performance2.PNG)
 

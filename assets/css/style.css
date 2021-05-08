@@ -56,7 +56,6 @@ body {
     }
 }
 
-
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .3rem;
@@ -91,7 +90,6 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
 }
-
 
 .navbar-dark .navbar-brand {
     color: rgb(214, 195, 127);
