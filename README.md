@@ -182,17 +182,45 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 1.  As a member of a climbing group, I want to find suitable accommodation on the 1st of May that can house 8 climbers. It needs to be within our budget and the hope is for the overall trip to be a memorable one, with some interesting facilities local to the accommodation. The hope is that this will make it a good proposition for all, be able to relax properly at the end of each day which will add value to our climbing trip.
     1. The The call-to-action link can take the user to an external booking platform checkfront.com to check availability and also the prices for the desired dates.  There are references to the local mountain range and walks in the local area.   A list of facilities is clear within the accommodation section with photographs to demonstrate the environment they will be able to relax in at the end of a busy day.  They have the option to receive promotional emails in the future if they decide to re-visit the area and wish to seek discounted offers.
 
+The contact form for signing up for future offers and also call-to-action to access pricing and availability
+
+![Contact form](/assets/readme-images/contact-form.PNG)
+
+Cottage features
+
+![Cottage features](/assets/readme-images/luxury-play-area.PNG)
+
+Local features
+
+![Local features](/assets/readme-images/local-features.PNG)
+
 1.	As a family of 5, we are looking for an ideal getaway for half term. We’d like the children to be able to have fun outside the accommodation, with plenty to do in the area. As parents we wouldn’t mind a bit of luxury either. This would make it a family break to remember.
 The website states how many beds capacity it has and a descriptions of the facilities, photos of the accommodation, reference to a children’s play area and things to do locally.   There is reference to the luxury aspects of the accommodation.  The user gets a choice of placing a booking or contacting the owner with any queries. 
     1. The website states how many beds capacity it has and a description of the facilities, photos of the accommodation, reference to a children’s play area and things to do locally.   There is reference to the luxury aspects of the accommodation.  The user gets a choice of placing a booking or contacting the owner with any queries. 
+
+Luxury and childrens play area:
+
+![Luxury and Children's play area](/assets/readme-images/luxury-play-area.PNG)
 
 1.	As a retired couple we are looking for a self-catering cottage to spend a couple of weeks relaxing and exploring the Snowdonia region.  We would like to book something tonight so that we can plan for the getaway therefore we would like to check availability and make a reservation.
 The website features things to do locally in Snowdonia and also a great illustration of the Snowdonia experience in the embedded video.   There is a prominent call-to-action button so that the user can check availability and book their holiday immediately at any point during their viewing of the website.
     1. The website features things to do locally in Snowdonia and also a great illustration of the Snowdonia experience in the embedded video.   There is a prominent call-to-action button so that the user can check availability and book their holiday immediately at any point during their viewing of the website.
 
+Prominent call to action:
+
+![Call to action](/assets/readme-images/prominent-calltoaction.PNG)
+
 1.	As a customer looking for a suitable accommodation to host my husband’s 60th birthday party in a private setting.  I would like to hear of any experiences others have had before committing.  We would like to bring as many people as possible and would like to be able to cater for them all.  We also have a number of other requirements, so I’d like to be able to contact the owner before placing a booking. 
 The website features the number of bed capacity and also references a testimonial from a customer.  The user can also access social media accounts to further assess the suitability of the accommodation.  They want to cater for a big group and the website references the facilities in detail and demonstrates its capacity to cater for a big group.  The contact form will allow them to contact the owner with any queries they have and can contact them directly.
     1. The website features the number of bed capacity and also references a testimonial from a customer.  The user can also access social media accounts to further assess the suitability of the accommodation.  They want to cater for a big group and the website references the facilities in detail and demonstrates its capacity to cater for a big group.  The contact form will allow them to contact the owner with any queries they have and can contact them directly.
+
+Testimonial and call to action fixed at all times and on contact form:
+
+![Testimonial and call to action](/assets/readme-images/call-to-action-fixed.PNG)
+
+Form to easily contact the accomodation owner:
+
+![Contact form](/assets/readme-images/contact-form.PNG)
 
 ## Manual testing procedures
 
