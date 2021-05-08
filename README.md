@@ -1,8 +1,14 @@
+![Snowdonia Cottage Breaks](/assets/readme-images/sb.PNG)
+
+![Snowdonia Cottage Breaks](/assets/readme-images/mockup.PNG)
+
 # Snowdonia Breaks
 
 This website is intended to provide a captivating user experience for prospective customers of a holiday cottage based in Snowdonia, North Wales.  This in turn should lead to frequent conversions for our client Snowdonia Breaks.   
 
 The goal is to showcase the product in its best light to attract the maximum number of guests.  The website seeks to do this by providing a minimal and natural look, yet with a strong presence and demonstration of the holiday experience.
+
+----
 
 # UX
 ## Who is the audience?
@@ -15,9 +21,14 @@ The owner seeks to obtain the maximum number of conversions to fill out the annu
 
 ## Typical user stories to expect:
 
-1. As a member of a climbing group, I want to find suitable accommodation on the 1st of May that can house 8 climbers.  It needs to be within our budget and the hope is for the overall trip to be a memorable one, with some interesting facilities local to the accommodation.  The hope is that this will make it a good proposition for all, be able to relax properly at the end of each day which will add value to our climbing trip.
+1.  As a member of a climbing group, I want to find suitable accommodation on the 1st of May that can house 8 climbers.  It needs to be within our budget and the hope is for the overall trip to be a memorable one, with some interesting facilities local to the accommodation.  The hope is that this will make it a good proposition for all, be able to relax properly at the end of each day which will add value to our climbing trip.
 
-1. As a family of 5, we are looking for an ideal getaway for half term.  We’d like the children to be able to have fun outside the accommodation, with plenty to do in the area.  As parents we wouldn’t mind a bit of luxury either.  This would make it a family break to remember.
+1.  As a family of 5, we are looking for an ideal getaway for half term.  We’d like the children to be able to have fun outside the accommodation, with plenty to do in the area.  As parents we wouldn’t mind a bit of luxury either.  This would make it a family break to remember.
+
+1.  As a retired couple we are looking for a self-catering cottage to spend a couple of weeks relaxing and exploring the Snowdonia region.  We would like to book something tonight so that we can plan for the getaway therefore we would like to check availability and make a reservation.
+
+1.	As a customer looking for a suitable accommodation to host my husband’s 60th birthday party in a private setting.  I would like to hear of any experiences others have had before committing.  We would like to bring as many people as possible and would like to be able to cater for them all.  We also have a number of other requirements, so I’d like to be able to contact the owner before placing a booking. 
+
 
 There seems to be a significant variance in the potential stories that we can expect.  This suggests that we should try to maintain some neutrality while focusing on the service itself and the value propositions of it.  
 
@@ -117,6 +128,8 @@ It is to be ensured that other colouration is compatible with the above colours.
 
 Generic bootstrap buttons have been deemed suitable, providing that the styling is overridden using the colours that are compatible with #16293F
 
+----
+
 # Features
 
 ## Existing Features
@@ -139,6 +152,8 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 *   Location map to be embedded with a Google maps iFrame
 *   New navigation item that links to additional information in a separate scrolling page about the cottage, the local area special interests, local history links to local attractions websites. 
 
+----
+
 # Technologies Used
 
 *   GitHub was used to host my repository and deploy the website onto Github Pages.   GitPod was used as a workspace to develop the website.
@@ -154,20 +169,14 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 *   [Optimizilla](https://imagecompressor.com/) was used as it allowed me to choose the degree of compression to be applied.
 *   The W3C validation tools were used to validate HTML and CSS
 
-
-## Wireframes
-
-These are the wireframes used for this project.  The end result varies in some aspects upon further realisation of scope and potential but has kept to a recogniseable theme.
-
-[Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-desktop-tablets.png)
-
-[Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-mobile.png)
+----
 
 # Testing
 
-Testing against user stories:
+## Testing against user stories:
+
+
 1.  As a member of a climbing group, I want to find suitable accommodation on the 1st of May that can house 8 climbers. It needs to be within our budget and the hope is for the overall trip to be a memorable one, with some interesting facilities local to the accommodation. The hope is that this will make it a good proposition for all, be able to relax properly at the end of each day which will add value to our climbing trip.
-The call-to-action link can take the user to an external booking platform checkfront.com to check availability and also the prices for the desired dates.  There are references to the local mountain range and walks in the local area.   A list of facilities is clear within the accommodation section with photographs to demonstrate the environment they will be able to relax in at the end of a busy day.  They have the option to receive promotional emails in the future if they decide to re-visit the area and wish to receive discounted offers.
     1. The The call-to-action link can take the user to an external booking platform checkfront.com to check availability and also the prices for the desired dates.  There are references to the local mountain range and walks in the local area.   A list of facilities is clear within the accommodation section with photographs to demonstrate the environment they will be able to relax in at the end of a busy day.  They have the option to receive promotional emails in the future if they decide to re-visit the area and wish to seek discounted offers.
 
 1.	As a family of 5, we are looking for an ideal getaway for half term. We’d like the children to be able to have fun outside the accommodation, with plenty to do in the area. As parents we wouldn’t mind a bit of luxury either. This would make it a family break to remember.
@@ -186,14 +195,70 @@ The website features the number of bed capacity and also references a testimonia
 
 My manual testing procedures for this project were as follows:
 
-* Test on different browsers at different screen widths for responsiveness – Chrome, Chrome for Android, Samsung Internet Edge, Firefox
-* Functional testing of the website link buttons, form and video embed
-* Check the problems tab in GitPod workspace
-* Test with Devtools Lighthouse
-* W3 Validation tool for HTML
-* W3 Validation tool for CSS
-* A11Y Color Contrast Accessibility Validator
+1. #### Test on different browsers at different screen widths for responsiveness – Chrome, Chrome for Android, Samsung Internet Edge, Firefox
 
+##### Website tested on all these browsers and was satisfied that it resembled the intent when developing on Chrome desktop.  I adapted the screen width manually on the desktop browsers to seek anomalies and I also used the scaling tool on DevTools; I was satisfied that there are no events that can affect the user experience.  The mobile browsers Chrome and Samsung were also consistent with the intent at the development stage.   
+
+2. #### Functional testing of the website link buttons, form and video embed
+
+##### All website features tested after deployment and they functioned as intended.  Links were live and opened in new tabs, the form submission returned successfully from the Code Institute form service and also activated the ‘thank you’ modal.   The video embed plays as intended and is responsive.
+
+3. #### Check the problems tab in GitPod workspace
+
+##### Back end anomalies reported. No relevant problems.
+
+4. #### Test with Devtools Lighthouse
+
+Lighthouse desktop report came out favourably:
+
+![LH Desktop report](/assets/readme-images/lh-desktop.PNG)
+
+Recommendations for best practices are related to external library dependency:
+
+![LH Desktop best practices](/assets/readme-images/desktop-best-practices.PNG)
+
+Lighthouse mobile report came out with actionable recommendations.  The unused CSS also seemed to be external:
+
+![LH mobile recommendations](/assets/readme-images/ih-mobile.PNG)
+
+![LH mobile report](/assets/readme-images/mobile-performance1.PNG)
+
+Images were reduced further upon recommendation although they had already been compressed.  This resulted in a slight improvement in the performance score.
+
+![LH mobile correction](/assets/readme-images/ih-mobile-2.PNG)
+
+![LH mobile correction2](/assets/readme-images/mobile-performance2.PNG)
+
+Recommendations for mobile best practices were also related to external library dependency:
+
+![LH mobile issues](/assets/readme-images/mobile-best-practices.PNG)
+
+5. #### W3 Validation tool for HTML
+
+The HTML validation tool returned with two warnings that are not relevant in the context of the page:
+
+![W3 Validator HTML report](/assets/readme-images/w3-html.PNG)
+
+6. #### W3 Validation tool for CSS
+
+The CSS validator returned 2 errors and many warnings associated with external library dependency:
+
+![W3 Validator CSS report](/assets/readme-images/w3-css.PNG)
+
+7. #### A11Y Color Contrast Accessibility Validator
+
+Addressed two color contrast issues into compliance:
+
+![A11Y Correction 1](/assets/readme-images/colour-contrast1.PNG)
+
+![A11Y Correction 2](/assets/readme-images/colour-contrast2.PNG)
+
+
+## Other testing considerations
+
+In relation to x-small screens there has been an ok result on normal browsers but the callout section has somehow rendered differently on some third party web apps such as http://ami.responsivedesign.is/
+
+----
 
 # Deployment
 
@@ -201,13 +266,15 @@ The website has been deployed using GitHub pages with the master branch of my re
 
 ![Pages Deployment](/assets/readme-images/github-pages-deployment.PNG)
 
+----
+
 # Credits
 
 ## Content
 
 * Text content obtained from snowdoniabreaks.co.uk at the approval of the website owner
 
-## media
+## Media
 
 * Several images obtained from snowdoniabreaks.co.uk at the approval of the website owner
 * The Dinas Dinlle image was taken by myself.
@@ -217,14 +284,12 @@ The website has been deployed using GitHub pages with the master branch of my re
 * Snowdonia video obtained from [YouTube](https://www.youtube.com/watch?v=4yf-axuPuLo) 
 * Lake image for the form background obtained from [Pixabay](https://pixabay.com/photos/lake-reflection-mountains-panorama-1616160/)
 
-
 ## Acknowledgements 
 
 * Code Institute's LMS provided me with a great foundation to the way I have approached this project. I made use of teachings from UX to coding.
 * A README structure template provided by Code Institute was followed to structure this README file. 
-* My mentor Guido Cecilio for providing me with feedback with layout options.  Also for prompting me and assisting me to upgrade my version of Bootstrap, Javascript and jQuery and on the deployment of the textarea element to replace an input element within the form.  Feedback on general coding good practices and cleanliness of code.  Adapting the imported iframe code to include an attribute for improved video responsiveness. Assisting me to correct the structuring of relative directories after deployment of the website.
+* My mentor Guido Cecilio for providing me with feedback with layout options.  Also for prompting me and assisting me to upgrade my version of Bootstrap, Javascript and jQuery for wider use of classes, and on the deployment of the textarea element to replace an input element within the form.  Feedback on general coding good practices and cleanliness of code.  Adapting the imported iframe code to include an attribute for improved video responsiveness. Assisting me to correct the structuring of relative directories after deployment of the website.
 * General bootstrap documentation for classes and their behaviour
 * Code snippet used to inspire my colouring of bullets from [W3 Schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp)
 * Followed instructions to deploy Scrollspy from [W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp) 
-* Followed instructions to centre the modal popup from [StackOverflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen ) 
-
+* Followed instructions to centre the modal popup from [StackOverflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen )
