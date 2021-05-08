@@ -154,6 +154,15 @@ nav .fas {
     }
 }
 
+@media (max-width: 350px) {
+    .callout-xsmall {
+
+        margin-top: 30px;
+        padding: 15px 5px 20px 5px;
+        font-size: .8em;
+    }
+}
+
 .h-style-1 {
     font-family: "Nanum Myeongjo", sans-serif;
     color: white;
@@ -680,8 +689,8 @@ h2 i {
 
 .hiker-image {
     position: absolute;
-    left: 67%;
-    bottom: 34.4px;
+    left: 67.1%;
+    bottom: 34px;
     width: 14.5rem;
 }
 
@@ -696,8 +705,8 @@ h2 i {
 
 .trees-image {
     position: absolute;
-    left: 2.1%;
-    bottom: 34px;
+    left: 2%;
+    bottom: 32px;
     width: 15.5rem;
 }
 

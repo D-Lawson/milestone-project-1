@@ -107,41 +107,65 @@ Here are some of the styling rules that has been defined to date:
 
 ### Colours
 
-A hex colour of #203C5C has been identified as suitable for headers, footers, fill colours within containers.
+A hex colour of #16293F has been identified as suitable for headers, footers, fill colours within containers.
 
 Hex colour #D6C37F has been identified as suitable for body text.  Also for the main logo font text.  A white/light colour shall be used for other headings.
 
+It is to be ensured that other colouration is compatible with the above colours.
+
 ### Buttons
 
-Generic bootstrap buttons have been deemed suitable, providing that the styling is overridden using the colours that are compatible with #203C5C
+Generic bootstrap buttons have been deemed suitable, providing that the styling is overridden using the colours that are compatible with #16293F
 
 # Features
 
 ## Existing Features
 
-*	Nav bar containing navigation button elements and business logo.
-*	Hero image with a bootstrap jumbotron added for the callout.  Call to action button (Book Now) visible within the jumbotron.
-*   Section for Cottage overview containing two boostrap grid columns, one with a jumbotron for text, one container for an image.
-*   Section containing accommodation features in a single column with an unordered list, wrapped around a testimonial image floated right.
-*   Section for The Local Area containing two boostrap grid columns with a jumbotron in each column, one for text and one for an image.
-*   Contact Us section containing a call to action to check availability and Book Now.  Contact form inserted with modal popup upon submit.
-*   Bootstrap Scrollspy deployed to highlight the active section in the nav bar.
-*   Video embedded via youtube iframe containing an example of the Snowdonia experience.
+*	Nav bar containing navigation button elements and business logo.  The navbar uses bootstrap classes and also some custom CSS.  A logo was crafted using relative positioning to the text.  The navbar contains a toggler button that allows the user to navigate on mobile, a Book now call-to-action button at all times with a fixed header so that the user can book at any point.  Book now button refers the user to an external booking platform.
+*	Hero image with a bootstrap jumbotron added for the callout information. Call to action button (Book Now) visible within the jumbotron.  Some graphical elements placed with precision within the callout for a bespoke design.  Callout with transparent background to partially see the hero image.
+*   Section for Cottage overview containing two bootstrap grid columns, one with a jumbotron for text with a header and FontAwesome icon, one container for an image adjacent. Custom CSS applied for styling and responsiveness.
+*   Section containing accommodation features in a single column with an unordered list, wrapped around a testimonial image floated right.  Custom CSS applied with red coloured bullets for the list.
+*   Section for The Local Area containing two bootstrap grid columns with a jumbotron in each column, one for text and one for an image adjacent. Custom CSS applied.
+*   Contact Us section containing a call to action to check availability and Book Now. Contact form inserted with modal popup upon submit to thank for the response.  Background image placed within the form container.
+*   Bootstrap Scrollspy deployed to highlight the active section in the nav bar. Deployed bootstrap JavaScript to enable this.
+*   Video embedded via YouTube iframe containing an example of the Snowdonia experience.
 *   Footer section containing additional contact information and also social media links.
+*   Elements made responsive throughout.
+*   Meta tags inserted for description, keywords, author, theme-color for search engine optimisation.
 
 ## Features Left to Implement
 
+*   Image carousel to be inserted once enough images can be obtained from the owner to form a carousel gallery feature.
+*   Location map to be embedded with a Google maps iFrame
+*   New navigation item that links to additional information in a separate scrolling page about the cottage, the local area special interests, local history links to local attractions websites. 
+
 # Technologies Used
 
-*	Bootstrap version 4.2 used for Nav, Jumbotron, some styling, and a button.
-*	Fontawesome is used for the logo image and scroll down logo.
-*   Javascript bootstrap library used to deploy the bootstrap Scrollspy
+*   GitHub was used to host my repository and deploy the website onto Github Pages.   GitPod was used as a workspace to develop the website.
+*   Google Chrome was used as my primary browser for the development, including Dev Tools and Lighthouse. I used chrome on android mobile to aid development of responsiveness.
+*   [Bootstrap](https://getbootstrap.com/docs/4.6/) version 4.6 used for Nav, Jumbotron, some styling, and a button.
+*   FontAwesome version 5.15.3 is used for the logo icon, scroll down icon, heading icons and contact icons.
+*   Google Fonts to import font styles into the CSS.  The CSS2 API was used.
+*   Javascript and jQuery bootstrap library used to deploy the bootstrap Scrollspy
+*   Adobe XD was used to produce the wireframes.
+*   Adobe Photoshop was used to manipulate some images and graphical elements
+*   Favicon.io was used to generate the page icon set
+*   [A11Y](https://color.a11y.com/) was used to test colour contrasts for sufficient accessibility.
+*   [Optimizilla](https://imagecompressor.com/) was used as it allowed me to choose the degree of compression to be applied.
+*   The W3C validation tools were used to validate HTML and CSS
+
 
 ## Wireframes
 
-Adobe XD was used to produce the wireframes.
+These are the wireframes used for this project.  The end result varies in some aspects upon further realisation of scope and/or potential but has kept to a recogniseable theme.
+
+[Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-desktop-tablets.png)
+
+[Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-mobile.png)
 
 # Testing
+
+
 
 # Deployment
 
