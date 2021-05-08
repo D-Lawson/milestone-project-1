@@ -157,7 +157,7 @@ Generic bootstrap buttons have been deemed suitable, providing that the styling 
 
 ## Wireframes
 
-These are the wireframes used for this project.  The end result varies in some aspects upon further realisation of scope and/or potential but has kept to a recogniseable theme.
+These are the wireframes used for this project.  The end result varies in some aspects upon further realisation of scope and potential but has kept to a recogniseable theme.
 
 [Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-desktop-tablets.png)
 
@@ -165,9 +165,41 @@ These are the wireframes used for this project.  The end result varies in some a
 
 # Testing
 
+Testing against user stories:
+1.  As a member of a climbing group, I want to find suitable accommodation on the 1st of May that can house 8 climbers. It needs to be within our budget and the hope is for the overall trip to be a memorable one, with some interesting facilities local to the accommodation. The hope is that this will make it a good proposition for all, be able to relax properly at the end of each day which will add value to our climbing trip.
+The call-to-action link can take the user to an external booking platform checkfront.com to check availability and also the prices for the desired dates.  There are references to the local mountain range and walks in the local area.   A list of facilities is clear within the accommodation section with photographs to demonstrate the environment they will be able to relax in at the end of a busy day.  They have the option to receive promotional emails in the future if they decide to re-visit the area and wish to receive discounted offers.
+    1. The The call-to-action link can take the user to an external booking platform checkfront.com to check availability and also the prices for the desired dates.  There are references to the local mountain range and walks in the local area.   A list of facilities is clear within the accommodation section with photographs to demonstrate the environment they will be able to relax in at the end of a busy day.  They have the option to receive promotional emails in the future if they decide to re-visit the area and wish to seek discounted offers.
+
+1.	As a family of 5, we are looking for an ideal getaway for half term. We’d like the children to be able to have fun outside the accommodation, with plenty to do in the area. As parents we wouldn’t mind a bit of luxury either. This would make it a family break to remember.
+The website states how many beds capacity it has and a descriptions of the facilities, photos of the accommodation, reference to a children’s play area and things to do locally.   There is reference to the luxury aspects of the accommodation.  The user gets a choice of placing a booking or contacting the owner with any queries. 
+    1. The website states how many beds capacity it has and a description of the facilities, photos of the accommodation, reference to a children’s play area and things to do locally.   There is reference to the luxury aspects of the accommodation.  The user gets a choice of placing a booking or contacting the owner with any queries. 
+
+1.	As a retired couple we are looking for a self-catering cottage to spend a couple of weeks relaxing and exploring the Snowdonia region.  We would like to book something tonight so that we can plan for the getaway therefore we would like to check availability and make a reservation.
+The website features things to do locally in Snowdonia and also a great illustration of the Snowdonia experience in the embedded video.   There is a prominent call-to-action button so that the user can check availability and book their holiday immediately at any point during their viewing of the website.
+    1. The website features things to do locally in Snowdonia and also a great illustration of the Snowdonia experience in the embedded video.   There is a prominent call-to-action button so that the user can check availability and book their holiday immediately at any point during their viewing of the website.
+
+1.	As a customer looking for a suitable accommodation to host my husband’s 60th birthday party in a private setting.  I would like to hear of any experiences others have had before committing.  We would like to bring as many people as possible and would like to be able to cater for them all.  We also have a number of other requirements, so I’d like to be able to contact the owner before placing a booking. 
+The website features the number of bed capacity and also references a testimonial from a customer.  The user can also access social media accounts to further assess the suitability of the accommodation.  They want to cater for a big group and the website references the facilities in detail and demonstrates its capacity to cater for a big group.  The contact form will allow them to contact the owner with any queries they have and can contact them directly.
+    1. The website features the number of bed capacity and also references a testimonial from a customer.  The user can also access social media accounts to further assess the suitability of the accommodation.  They want to cater for a big group and the website references the facilities in detail and demonstrates its capacity to cater for a big group.  The contact form will allow them to contact the owner with any queries they have and can contact them directly.
+
+## Manual testing procedures
+
+My manual testing procedures for this project were as follows:
+
+* Test on different browsers at different screen widths for responsiveness – Chrome, Chrome for Android, Samsung Internet Edge, Firefox
+* Functional testing of the website link buttons, form and video embed
+* Check the problems tab in GitPod workspace
+* Test with Devtools Lighthouse
+* W3 Validation tool for HTML
+* W3 Validation tool for CSS
+* A11Y Color Contrast Accessibility Validator
 
 
 # Deployment
+
+The website has been deployed using GitHub pages with the master branch of my repository.  I used the following settings:
+
+![Pages Deployment](/assets/readme-images/github-pages-deployment.PNG)
 
 # Credits
 
@@ -177,9 +209,22 @@ These are the wireframes used for this project.  The end result varies in some a
 
 ## media
 
-* Images obtained from snowdoniabreaks.co.uk at the approval of the website owner
-* Snowdon image obtained from stock photograph website https://www.freeimages.com/photo/snowdon-yr-wyddfa-1377605 
+* Several images obtained from snowdoniabreaks.co.uk at the approval of the website owner
+* The Dinas Dinlle image was taken by myself.
+* Snowdon image obtained from stock photograph website [Free Images](https://www.freeimages.com/photo/snowdon-yr-wyddfa-1377605)
+* The hiker graphic in the callout was obtained from stock photograph website - [Nice PNG](https://www.nicepng.com/maxp/u2q8o0w7q8w7w7r5/) 
+* The trees graphic in the callout was obtained from stock photograph website- [Pixabay](https://pixabay.com/vectors/palm-trees-beach-silhouette-5733403/) 
+* Snowdonia video obtained from [YouTube](https://www.youtube.com/watch?v=4yf-axuPuLo) 
+* Lake image for the form background obtained from [Pixabay](https://pixabay.com/photos/lake-reflection-mountains-panorama-1616160/)
+
 
 ## Acknowledgements 
 
-* Code Institute's LMS provided me with a great foundation to the way I have approached this project.  I made use of teachings from UX to coding.
+* Code Institute's LMS provided me with a great foundation to the way I have approached this project. I made use of teachings from UX to coding.
+* A README structure template provided by Code Institute was followed to structure this README file. 
+* My mentor Guido Cecilio for providing me with feedback with layout options.  Also for prompting me and assisting me to upgrade my version of Bootstrap, Javascript and jQuery and on the deployment of the textarea element to replace an input element within the form.  Feedback on general coding good practices and cleanliness of code.  Adapting the imported iframe code to include an attribute for improved video responsiveness. Assisting me to correct the structuring of relative directories after deployment of the website.
+* General bootstrap documentation for classes and their behaviour
+* Code snippet used to inspire my colouring of bullets from [W3 Schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp)
+* Followed instructions to deploy Scrollspy from [W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp) 
+* Followed instructions to centre the modal popup from [StackOverflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen ) 
+
