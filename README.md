@@ -4,7 +4,7 @@
 
 URL to the current deployed website:  [Snowdonia Cottage Breaks](https://d-lawson.github.io/milestone-project-1/)
 
-# Snowdonia Breaks
+# Snowdonia Cottage Breaks
 
 This website is intended to provide a captivating user experience for prospective customers of a holiday cottage based in Snowdonia, North Wales.  This in turn should lead to frequent conversions for our client Snowdonia Breaks.   
 
@@ -105,9 +105,9 @@ This page will feature a form to contact the owner to make an enquiry, with the 
 
 Here are the initial wireframes produced for this project:
 
-[Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-desktop-tablets.png)
+[Landing page - desktop and tablets](https://github.com/D-Lawson/milestone-project-1/blob/260becac88b720c8447ecdafdf50ca045066e16f/assets/wireframes/sb-desktop-tablets.png)
 
-[Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/7e9481273f52e128f77a4f526c4b049397f54257/assets/wireframes/sb-mobile.png)
+[Landing page - mobile](https://github.com/D-Lawson/milestone-project-1/blob/260becac88b720c8447ecdafdf50ca045066e16f/assets/wireframes/sb-mobile.png)
 
 
 ## The Surface Plane 
