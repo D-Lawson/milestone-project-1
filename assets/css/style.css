@@ -21,10 +21,6 @@ body {
     }
 }
 
-.nav li {
-    float: left;
-}
-
 /* ------------------------------------Paddings, margins and text */
 
 
@@ -133,6 +129,10 @@ nav .fas {
     }
 }
 
+.nav li {
+    float: left;
+}
+
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
@@ -144,8 +144,6 @@ nav .fas {
 .callout-padding {
     padding-top: 45px;
     padding-bottom: 35px;
-
-
 }
 
 @media (max-width: 716px) {
@@ -187,7 +185,7 @@ nav .fas {
 
 .h-style-4 {
     font-family: "Nanum Myeongjo", sans-serif;
-    color: #2D5EA3;
+    color: rgb(6, 71, 161);
     font-size: 25px;
     padding-bottom: 10px;
 }
@@ -217,12 +215,10 @@ nav .fas {
 }
 
 .p-style-2 b {
-
     color: silver;
 }
 
 .p-style-2 i {
-
     color: rgb(214, 195, 127);
 }
 
@@ -267,8 +263,7 @@ ul {
 @media (max-width: 716px) {
     .tagline {
         margin-bottom: 0;
-        font-size: 1.2em;
-    }
+        font-size: 1.2em;}
 }
 
 .embed-margin {
@@ -303,8 +298,7 @@ ul {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    /* obtained from https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen */
+    transform: translate(-50%, -50%);  /* obtained from https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen */
     width: 400px;
 }
 
@@ -318,26 +312,12 @@ ul {
     margin: 30px;
 }
 
-/* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
-
-.bullet-style:before {
-    content: "\2022";
-    color: red;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-/* ------------------------------------Bullet style code ends */
-
 @media (min-width:1200px) {
     .line-1-padding {
         padding-top: 45px;
         padding-bottom: 53px;
     }
 }
-
 
 @media (max-width: 1200px) and (min-width:992px) {
     .line-1-padding {
@@ -528,7 +508,6 @@ b {
     font-weight: 500;
 }
 
-
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -540,10 +519,22 @@ b {
     font-weight: 600;
 }
 
-
 h2 i {
     color: #f98d1a;
 }
+
+/* ------------------------------------Bullet style code obtained from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+
+.bullet-style:before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* ------------------------------------Bullet style code ends */
 
 
 /* ------------------------------------IMAGES */
@@ -586,7 +577,6 @@ h2 i {
     border: 2px solid #470d1b;
 }
 
-
 @media (max-width: 992px) and (min-width:768px) {
     .image-1 {
         display: none;
@@ -598,7 +588,6 @@ h2 i {
         border: 2px solid rgb(40, 77, 30);
     }
 }
-
 
 @media (max-width: 992px) {
     .image-3 {
@@ -623,8 +612,7 @@ h2 i {
 
 @media (max-width:992px) {
     .image-4 {
-        display: none;
-    }
+        display: none;}
 }
 
 .image-4-2 {
@@ -692,8 +680,8 @@ h2 i {
 
 .hiker-image {
     position: absolute;
-    left: 66.7%;
-    bottom: 37px;
+    left: 67%;
+    bottom: 34.4px;
     width: 14.5rem;
 }
 
@@ -708,15 +696,15 @@ h2 i {
 
 .trees-image {
     position: absolute;
-    left: 2.5%;
-    bottom: 37px;
+    left: 2.1%;
+    bottom: 34px;
     width: 15.5rem;
 }
 
 @media (max-width: 716px) {
     .trees-image {
         position: absolute;
-        left: 3.2%;
+        left: 3%;
         bottom: 37px;
         width: 9rem;
     }
@@ -739,13 +727,13 @@ h2 i {
     border-radius: .6rem;
 }
 
-@media (max-width:768px) {
+@media (max-width:992px) {
     .form-style {
         width: 90%;
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
     .form-style {
         margin: 5% 22.5% 10% 22.5%;
         width: 55%;
